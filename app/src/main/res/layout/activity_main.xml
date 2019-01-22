@@ -14,13 +14,13 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.551" android:scaleType="centerCrop"/>
     <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" app:srcCompat="@drawable/devslopesprofilelogo"
+            android:layout_width="124dp"
+            android:layout_height="116dp" app:srcCompat="@drawable/devslopesprofilelogo"
             android:id="@+id/logo"
-            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="28dp"
-            android:layout_marginTop="120dp" app:layout_constraintTop_toTopOf="parent"/>
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="4dp"
+            android:layout_marginTop="116dp" app:layout_constraintTop_toTopOf="parent"/>
     <TextView
-            android:text="Povhe"
+            android:text="Žiga Povhe"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/povheTxt" app:layout_constraintStart_toEndOf="@+id/logo"
@@ -92,5 +92,6 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="@+id/imageView"
             app:layout_constraintDimensionRatio="1:1" app:layout_constraintVertical_bias="0.0"
-            app:layout_constraintHorizontal_bias="0.0" android:layout_marginStart="8dp"/>
+            app:layout_constraintHorizontal_bias="0.0" android:layout_marginStart="8dp"
+/>
 </android.support.constraint.ConstraintLayout>
