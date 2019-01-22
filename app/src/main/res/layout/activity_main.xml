@@ -59,7 +59,7 @@
     <ImageView
             android:layout_width="0dp"
             android:layout_height="0dp" app:srcCompat="@drawable/dataimage"
-            android:id="@+id/dataimage"
+            android:id="@+id/statsView"
             android:scaleType="centerCrop" android:layout_marginTop="32dp"
             app:layout_constraintTop_toBottomOf="@+id/cameraBtn"
             app:layout_constraintEnd_toStartOf="@+id/guideline"
@@ -68,31 +68,31 @@
     <ImageView
             android:layout_width="0dp"
             android:layout_height="0dp" app:srcCompat="@drawable/imagesimage"
-            android:id="@+id/image"
+            android:id="@+id/imageView"
             android:scaleType="centerCrop"
             app:layout_constraintStart_toStartOf="@+id/guideline"
             app:layout_constraintDimensionRatio="1:1"
-            app:layout_constraintTop_toTopOf="@+id/dataimage" android:layout_marginStart="8dp"
+            app:layout_constraintTop_toTopOf="@+id/statsView" android:layout_marginStart="8dp"
             android:contentDescription="image image"/>
     <ImageView
             android:layout_width="0dp"
             android:layout_height="0dp" app:srcCompat="@drawable/videosimage"
-            android:id="@+id/videos"
+            android:id="@+id/videoView"
             android:scaleType="centerCrop" android:layout_marginTop="16dp"
-            app:layout_constraintTop_toBottomOf="@+id/dataimage" android:layout_marginEnd="8dp"
-            app:layout_constraintEnd_toStartOf="@+id/guideline" app:layout_constraintStart_toStartOf="@+id/dataimage"
+            app:layout_constraintTop_toBottomOf="@+id/statsView" android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toStartOf="@+id/guideline" app:layout_constraintStart_toStartOf="@+id/statsView"
             app:layout_constraintHorizontal_bias="0.0" android:layout_marginBottom="32dp"
             app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintVertical_bias="1.0"
             app:layout_constraintDimensionRatio="1:1" android:contentDescription="videos image"/>
     <ImageView
             android:layout_width="0dp"
             android:layout_height="0dp" app:srcCompat="@drawable/codeimage"
-            android:id="@+id/code"
+            android:id="@+id/codeView"
             android:scaleType="centerCrop" android:layout_marginTop="16dp"
-            app:layout_constraintTop_toBottomOf="@+id/image"
+            app:layout_constraintTop_toBottomOf="@+id/imageView"
             app:layout_constraintStart_toStartOf="@+id/guideline" android:layout_marginBottom="32dp"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="@+id/image"
+            app:layout_constraintEnd_toEndOf="@+id/imageView"
             app:layout_constraintDimensionRatio="1:1" app:layout_constraintVertical_bias="0.0"
             app:layout_constraintHorizontal_bias="0.0" android:layout_marginStart="8dp"
             android:contentDescription="code_image"/>
