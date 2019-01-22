@@ -12,21 +12,23 @@
             android:id="@+id/banner"
             app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.551" android:scaleType="centerCrop"/>
+            app:layout_constraintHorizontal_bias="0.551" android:scaleType="centerCrop"
+            android:contentDescription="@string/description"/>
     <ImageView
             android:layout_width="124dp"
             android:layout_height="116dp" app:srcCompat="@drawable/devslopesprofilelogo"
             android:id="@+id/logo"
             app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="4dp"
-            android:layout_marginTop="116dp" app:layout_constraintTop_toTopOf="parent"/>
+            android:layout_marginTop="116dp" app:layout_constraintTop_toTopOf="parent"
+            android:contentDescription="@string/description"/>
     <TextView
-            android:text="Žiga Povhe"
+            android:text="@string/txt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/povheTxt" app:layout_constraintStart_toEndOf="@+id/logo"
             app:layout_constraintTop_toBottomOf="@id/banner"
             android:layout_marginStart="20dp"
-            android:layout_marginTop="16dp" android:textSize="24sp"/>
+            android:layout_marginTop="16dp" android:textSize="24sp" android:contentDescription="@string/description"/>
     <ImageView
             android:layout_width="50dp"
             android:layout_height="50dp" app:srcCompat="@drawable/camerabutton"
@@ -34,7 +36,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintHorizontal_bias="0.5" app:layout_constraintEnd_toStartOf="@+id/favBtn"
             app:layout_constraintHorizontal_chainStyle="packed"
-            app:layout_constraintBottom_toBottomOf="@+id/favBtn"/>
+            app:layout_constraintBottom_toBottomOf="@+id/favBtn" android:contentDescription="@string/description"/>
     <ImageView
             android:layout_width="50dp"
             android:layout_height="50dp" app:srcCompat="@drawable/favoritebutton"
@@ -44,14 +46,15 @@
             android:layout_marginRight="24dp"
             app:layout_constraintTop_toTopOf="@+id/msgBtn"
             app:layout_constraintBottom_toBottomOf="@+id/msgBtn" app:layout_constraintVertical_bias="0.2"
-            android:layout_marginLeft="24dp"/>
+            android:layout_marginLeft="24dp" android:contentDescription="@string/description"/>
     <ImageView
             android:layout_width="50dp"
             android:layout_height="50dp" app:srcCompat="@drawable/inboxbutton"
             android:id="@+id/msgBtn" app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/favBtn"
             app:layout_constraintHorizontal_bias="0.5"
-            android:layout_marginTop="32dp" app:layout_constraintTop_toBottomOf="@+id/logo"/>
+            android:layout_marginTop="32dp" app:layout_constraintTop_toBottomOf="@+id/logo"
+            android:contentDescription="@string/description"/>
     <android.support.constraint.Guideline android:layout_width="wrap_content" android:layout_height="wrap_content"
                                           android:id="@+id/guideline"
                                           android:orientation="vertical"
@@ -63,7 +66,8 @@
             android:scaleType="centerCrop" android:layout_marginTop="32dp"
             app:layout_constraintTop_toBottomOf="@+id/cameraBtn"
             app:layout_constraintEnd_toStartOf="@+id/guideline"
-            app:layout_constraintDimensionRatio="1:1" android:layout_marginEnd="8dp"/>
+            app:layout_constraintDimensionRatio="1:1" android:layout_marginEnd="8dp"
+            android:contentDescription="@string/description"/>
     <ImageView
             android:layout_width="0dp"
             android:layout_height="0dp" app:srcCompat="@drawable/imagesimage"
@@ -71,7 +75,8 @@
             android:scaleType="centerCrop"
             app:layout_constraintStart_toStartOf="@+id/guideline"
             app:layout_constraintDimensionRatio="1:1"
-            app:layout_constraintTop_toTopOf="@+id/statsView" android:layout_marginStart="8dp"/>
+            app:layout_constraintTop_toTopOf="@+id/statsView" android:layout_marginStart="8dp"
+            android:contentDescription="@string/description"/>
     <ImageView
             android:layout_width="0dp"
             android:layout_height="0dp" app:srcCompat="@drawable/videosimage"
@@ -81,7 +86,7 @@
             app:layout_constraintEnd_toStartOf="@+id/guideline" app:layout_constraintStart_toStartOf="@+id/statsView"
             app:layout_constraintHorizontal_bias="0.0" android:layout_marginBottom="32dp"
             app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintVertical_bias="1.0"
-            app:layout_constraintDimensionRatio="1:1" android:contentDescription="videos image"/>
+            app:layout_constraintDimensionRatio="1:1" android:contentDescription="@string/description"/>
     <ImageView
             android:layout_width="0dp"
             android:layout_height="0dp" app:srcCompat="@drawable/codeimage"
@@ -93,5 +98,5 @@
             app:layout_constraintEnd_toEndOf="@+id/imageView"
             app:layout_constraintDimensionRatio="1:1" app:layout_constraintVertical_bias="0.0"
             app:layout_constraintHorizontal_bias="0.0" android:layout_marginStart="8dp"
-/>
+            android:contentDescription="@string/description"/>
 </android.support.constraint.ConstraintLayout>
