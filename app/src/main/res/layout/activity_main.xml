@@ -63,8 +63,7 @@
             android:scaleType="centerCrop" android:layout_marginTop="32dp"
             app:layout_constraintTop_toBottomOf="@+id/cameraBtn"
             app:layout_constraintEnd_toStartOf="@+id/guideline"
-            app:layout_constraintDimensionRatio="1:1" android:layout_marginEnd="8dp"
-            android:contentDescription="data image"/>
+            app:layout_constraintDimensionRatio="1:1" android:layout_marginEnd="8dp"/>
     <ImageView
             android:layout_width="0dp"
             android:layout_height="0dp" app:srcCompat="@drawable/imagesimage"
@@ -72,8 +71,7 @@
             android:scaleType="centerCrop"
             app:layout_constraintStart_toStartOf="@+id/guideline"
             app:layout_constraintDimensionRatio="1:1"
-            app:layout_constraintTop_toTopOf="@+id/statsView" android:layout_marginStart="8dp"
-            android:contentDescription="image image"/>
+            app:layout_constraintTop_toTopOf="@+id/statsView" android:layout_marginStart="8dp"/>
     <ImageView
             android:layout_width="0dp"
             android:layout_height="0dp" app:srcCompat="@drawable/videosimage"
@@ -94,6 +92,5 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="@+id/imageView"
             app:layout_constraintDimensionRatio="1:1" app:layout_constraintVertical_bias="0.0"
-            app:layout_constraintHorizontal_bias="0.0" android:layout_marginStart="8dp"
-            android:contentDescription="code_image"/>
+            app:layout_constraintHorizontal_bias="0.0" android:layout_marginStart="8dp"/>
 </android.support.constraint.ConstraintLayout>
